@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{74e5263b-a0a3-4403-bbb1-b65ae3e21641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\assets">
+      <UniqueIdentifier>{7a9a7971-3ec3-4bda-8a76-d2946225849d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\assets\backpack">
+      <UniqueIdentifier>{6a45d991-bc53-4b05-857e-84b7129944d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader_m.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="entities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="vs.model">
+      <Filter>Resource Files\Shaders</Filter>
+    </Text>
+    <Text Include="backpack\source_attribution.txt">
+      <Filter>Resource Files\assets\backpack</Filter>
+    </Text>
+    <Text Include="todo.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fs.model">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="backpack\backpack.mtl">
+      <Filter>Resource Files\assets\backpack</Filter>
+    </None>
+    <None Include="vs.lamb">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="fs.lamb">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="backpack\ao.jpg">
+      <Filter>Resource Files\assets\backpack</Filter>
+    </Image>
+    <Image Include="backpack\diffuse.jpg">
+      <Filter>Resource Files\assets\backpack</Filter>
+    </Image>
+    <Image Include="backpack\normal.png">
+      <Filter>Resource Files\assets\backpack</Filter>
+    </Image>
+    <Image Include="backpack\roughness.jpg">
+      <Filter>Resource Files\assets\backpack</Filter>
+    </Image>
+    <Image Include="backpack\specular.jpg">
+      <Filter>Resource Files\assets\backpack</Filter>
+    </Image>
+    <Image Include="backpack\backpack.obj">
+      <Filter>Resource Files\assets\backpack</Filter>
+    </Image>
+    <Image Include="objects\male.obj">
+      <Filter>Resource Files\assets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
